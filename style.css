@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+img {
+    height: 400px;
+    width: 600px;
+    border-style: solid;
+    padding: 5px;
+}
+
+.links {
+    float: left;
+    color: darkblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
+
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+
+}
+
+.links:hover {
+    background-color: deepskyblue;
+
+
+}
